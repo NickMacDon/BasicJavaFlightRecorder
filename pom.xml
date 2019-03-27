@@ -11,6 +11,7 @@
   <version>1.0.2-SNAPSHOT</version>
   <name>flight-recorder-utility</name>
   <description>A simplistic "flight recorder" utility to help with debugging.</description>
+  <url>https://github.com/NickMacDon/BasicJavaFlightRecorder/</url>
 
   <licenses>
     <license>
