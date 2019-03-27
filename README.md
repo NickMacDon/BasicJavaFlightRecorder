@@ -7,6 +7,15 @@ The basic idea of this tool is to support an end user (potentially remote/offsit
 __(Note this framework does not include any means to communicate anything... it's not inherently any sort of a spy... nor inherently any sort of instrumentation... but it could be developed into either, I suppose.)__
 
 ## What does the developer need to do to use it?
+If you use Maven add the dependency to your project:
+```
+<dependency>
+  <groupId>io.github.nickmacdon</groupId>
+  <artifactId>flight-recorder-utility</artifactId>
+  <version>1.0.2</version>
+</dependency>
+```
+
 The developer needs to know what events in their software they wish to monitor for.  An Enum should be created for those events, and each event should be given a unique ID (a long.)  The Enum should implement the FlightRecorderEventID interface and part of implementing that interface will require it to be able to turn a FlightRecorderEventID into a FlightRecorderEvent when requested by the framework.
 
 The FlightRecorderEventID interface contains a few methods and a special case constant to represent an undefined event ID:
