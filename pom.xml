@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
+
   <!-- This code is part of https://github.com/NickMacDon/BasicJavaFlightRecorder -->
   <!-- This code is licensed with the Apache License 2.0  https://www.apache.org/licenses/LICENSE-2.0 -->
   <!-- Written by Nick MacDonald (C) 2019 -->
@@ -13,6 +13,36 @@
   <version>1.0.0</version>
   <name>flight-recorder-utility</name>
   <description>A simplistic "flight recorder" utility to help with debugging.</description>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>io.github.nickmacdon</name>
+    <url>https://github.com/NickMacDon</url>
+  </organization>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/NickMacDon/BasicJavaFlightRecorder/issues</url>
+  </issueManagement>
+
+  <developers>
+    <developer>
+      <name>Nick MacDonald</name>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/NickMacDon/BasicJavaFlightRecorder.git</connection>
+    <developerConnection>scm:git:https://github.com/NickMacDon/BasicJavaFlightRecorder.git</developerConnection>
+    <url>https://github.com/NickMacDon/BasicJavaFlightRecorder/tree/master</url>
+  </scm>
 
   <build>
     <plugins>
