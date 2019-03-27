@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <!-- This code is part of https://github.com/NickMacDon/BasicJavaFlightRecorder -->
   <!-- This code is licensed with the Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0 -->
@@ -10,7 +8,7 @@
 
   <groupId>io.github.nickmacdon</groupId>
   <artifactId>flight-recorder-utility</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <name>flight-recorder-utility</name>
   <description>A simplistic "flight recorder" utility to help with debugging.</description>
 
@@ -42,7 +40,7 @@
     <connection>scm:git:https://github.com/NickMacDon/BasicJavaFlightRecorder.git</connection>
     <developerConnection>scm:git:https://github.com/NickMacDon/BasicJavaFlightRecorder.git</developerConnection>
     <url>https://github.com/NickMacDon/BasicJavaFlightRecorder/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>flight-recorder-utility-1.0.1</tag>
   </scm>
 
   <profiles>
